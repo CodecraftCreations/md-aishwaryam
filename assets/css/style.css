@@ -66,8 +66,14 @@ h6 {
 #header {
   background: rgba(0, 0, 0, 0.75);
   transition: all 0.5s;
-  z-index: 997;
+  z-index: 917;
   height: 120px;
+}
+
+@media (max-width: 991px) {
+  #header {
+    height: 60px;
+  }
 }
 
 #innerHeader {
@@ -87,9 +93,6 @@ h6 {
   height: 100vh;
   padding: 0;
 }
-
-
-
 
 /* video code */
 
