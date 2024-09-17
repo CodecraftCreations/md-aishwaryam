@@ -598,6 +598,10 @@ video::-o-media-controls {
   background: #202570;
 }
 
+.carousel-content h1{
+  color: white;
+}
+
 #hero .btn-get-started:hover {
   background: #0088ff;
   border-color: #0088ff;
@@ -1646,3 +1650,4 @@ section {
   width: 40px;
   height: 40px;
 }
+
